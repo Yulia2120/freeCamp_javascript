@@ -1,0 +1,162 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --background: #2d2727;
+  --secondary: #8f43ee;
+  --accent: #f0eb8d;
+  --accent-1: #e7de24;
+  --color: #fff;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--background);
+  color: var(--color);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10% 10px;
+}
+
+h1 {
+  font-size: 2.4rem;
+  letter-spacing: 2px;
+  margin: 20px 0;
+  text-align: center;
+  color: var(--accent);
+}
+
+#change-due {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px 0 20px;
+}
+
+label {
+  font-family: "Inter", sans-serif;
+}
+
+.user-input {
+  height: 30px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: none;
+}
+
+.user-input:focus {
+  outline: none;
+  border: 1px solid var(--secondary);
+}
+
+.price-screen {
+  border: 10px solid var(--secondary);
+  background-color: black;
+  height: 50px;
+  width: 200px;
+  margin-left: -40px;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#price {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.connector {
+  margin-left: -20px;
+  background-color: var(--secondary);
+  height: 30px;
+  width: 40px;
+}
+
+.top-register {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 35px 35px 0 0;
+  padding-top: 20px;
+  background-color: var(--secondary);
+  height: 250px;
+  width: 325px;
+}
+
+.btns-container {
+  width: 25%;
+}
+
+.btn {
+  border-radius: 10%;
+  border: none;
+  width: 20px;
+  height: 20px;
+  background-color: black;
+}
+
+.check-btn-styles {
+  cursor: pointer;
+  padding: 4px 10px;
+  margin: 10px;
+  color: #0a0a23;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: var(--accent);
+  background-image: linear-gradient(var(--accent), var(--accent-1));
+  border-radius: 20px;
+  border: 2px solid var(--accent-1);
+}
+
+.cash-drawer-display {
+  font-family: "Inter", sans-serif;
+  background-color: white;
+  width: 60%;
+  height: 95%;
+  color: black;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.bottom-register {
+  background-color: var(--secondary);
+  height: 50px;
+  width: 325px;
+  margin-top: 10px;
+}
+
+.circle {
+  margin: 15px auto;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: black;
+}
